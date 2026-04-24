@@ -1,0 +1,61 @@
+<!********f************
+    
+    Project 4 contact.html
+    Name: Jashwanth  Kopparthi
+    Date: 19 April 2026
+
+*********************>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1>Jashwanth_Kopparthi</h1>
+    </div>
+
+    <div id="navigation">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Skills & Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div id="content">
+        <h2>Get In Touch</h2>
+        <p>If you'd like to discuss development opportunities, please fill out the form below.</p>
+
+        <div id="error-message"></div>
+
+        <form id="contactForm" action="index.html" method="GET">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" name="userName" placeholder="Your Name">
+
+            <label for="userPhone">Phone Number (10 digits):</label>
+            <input type="tel" id="userPhone" name="userPhone" placeholder="1234567890">
+
+            <label for="userEmail">Email Address:</label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="your_email@example.com">
+
+            <label for="userComments">Comments:</label>
+            <textarea id="userComments" name="userComments" rows="5" placeholder="Your comments here..."></textarea>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Clear Form</button>
+        </form>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2026 Jashwanth Kopparthi</p>
+        <a href="index.html">Home</a> | 
+        <a href="portfolio.html">Skills</a> | 
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
