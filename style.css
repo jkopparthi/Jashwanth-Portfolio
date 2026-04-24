@@ -231,11 +231,12 @@ button:hover {
 }
 
 /* Media Queries  */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     #header h1 {
     
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
+    padding: 20px 30px;
 }
 
     #navigation {
